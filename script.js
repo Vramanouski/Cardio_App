@@ -193,12 +193,12 @@ class App {
         workout.type === "running" ? "🏃" : "🚵‍♂️"
       }</span>
       <span class="workout__value">${workout.distance}</span>
-      <span class="workout__unit">км</span>
+      <span class="workout__unit">km</span>
     </div>
     <div class="workout__details">
       <span class="workout__icon">⏱</span>
       <span class="workout__value">${workout.duration}</span>
-      <span class="workout__unit">мин</span>
+      <span class="workout__unit">min</span>
     </div>
     `;
 
@@ -207,12 +207,12 @@ class App {
       <div class="workout__details">
             <span class="workout__icon">📏⏱</span>
             <span class="workout__value">${workout.pace.toFixed(2)}</span>
-            <span class="workout__unit">м/мин</span>
+            <span class="workout__unit">meters/min</span>
           </div>
           <div class="workout__details">
             <span class="workout__icon">👟⏱</span>
             <span class="workout__value">${workout.temp}</span>
-            <span class="workout__unit">шаг/мин</span>
+            <span class="workout__unit">steps/min</span>
           </div>
         </li>`;
     }
