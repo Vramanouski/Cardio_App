@@ -20,10 +20,10 @@ class Workout {
 
   _setDescription() {
     this.type === "running"
-      ? (this.description = `Running ${new Intl.DateTimeFormat("ru-Ru").format(
+      ? (this.description = `Running ${new Intl.DateTimeFormat("en-En").format(
           this.date
         )}`)
-      : (this.description = `Cycling ${new Intl.DateTimeFormat("ru-Ru").format(
+      : (this.description = `Cycling ${new Intl.DateTimeFormat("en-En").format(
           this.date
         )}`);
   }
